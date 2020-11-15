@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bliss.Recruitment.Api", "Bliss.Recruitment\Bliss.Recruitment.Api.csproj", "{2EF88352-F55F-4A7F-B04B-A4C511430BC3}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{B1A10404-A8DE-4D2B-A104-3AD3120EAA0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bliss.Recruitment.Tests", "Bliss.Recruitment.Tests\Bliss.Recruitment.Tests.csproj", "{8E3C9CE2-FE8F-4C2C-BD65-91E57856B470}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F939B9B9-AA73-417B-858D-001064808FCB}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bliss.Recruitment.Application", "Bliss.Recruitment.Application\Bliss.Recruitment.Application.csproj", "{C9E3CFA1-2E32-4F32-A401-90A79BA465CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bliss.Recruitment.Domain", "Bliss.Recruitment.Domain\Bliss.Recruitment.Domain.csproj", "{09AE5D2E-3540-45C5-9335-59EE7843FA23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bliss.Recruitment.Infrastructure", "Bliss.Recruitment.Infrastructure\Bliss.Recruitment.Infrastructure.csproj", "{07061B73-A8B9-40D7-B287-24F324E8B30C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EF88352-F55F-4A7F-B04B-A4C511430BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EF88352-F55F-4A7F-B04B-A4C511430BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EF88352-F55F-4A7F-B04B-A4C511430BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EF88352-F55F-4A7F-B04B-A4C511430BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1A10404-A8DE-4D2B-A104-3AD3120EAA0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A10404-A8DE-4D2B-A104-3AD3120EAA0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A10404-A8DE-4D2B-A104-3AD3120EAA0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A10404-A8DE-4D2B-A104-3AD3120EAA0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E3C9CE2-FE8F-4C2C-BD65-91E57856B470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E3C9CE2-FE8F-4C2C-BD65-91E57856B470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E3C9CE2-FE8F-4C2C-BD65-91E57856B470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E3C9CE2-FE8F-4C2C-BD65-91E57856B470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9E3CFA1-2E32-4F32-A401-90A79BA465CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9E3CFA1-2E32-4F32-A401-90A79BA465CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9E3CFA1-2E32-4F32-A401-90A79BA465CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9E3CFA1-2E32-4F32-A401-90A79BA465CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09AE5D2E-3540-45C5-9335-59EE7843FA23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09AE5D2E-3540-45C5-9335-59EE7843FA23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09AE5D2E-3540-45C5-9335-59EE7843FA23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09AE5D2E-3540-45C5-9335-59EE7843FA23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07061B73-A8B9-40D7-B287-24F324E8B30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07061B73-A8B9-40D7-B287-24F324E8B30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07061B73-A8B9-40D7-B287-24F324E8B30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07061B73-A8B9-40D7-B287-24F324E8B30C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A3CF800-E0A9-46BC-8ABB-A9F48A214A3B}
+	EndGlobalSection
+EndGlobal
